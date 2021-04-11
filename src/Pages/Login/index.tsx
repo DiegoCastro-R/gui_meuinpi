@@ -1,8 +1,11 @@
 import React from 'react';
 import { Grid, Typography, Button, Card, TextField } from '@material-ui/core';
+import MenuList from '../../Components/MenuListItems';
 import logo from '../../logo.png';
 import { Container } from './styles';
+
 const login: React.FC = () => {
+  const [isLogin, setIsLogin] = React.useState(false);
   return (
     <Container>
       <Grid
@@ -28,19 +31,47 @@ const login: React.FC = () => {
         </Grid>
         <Grid item>
           <form>
-            <Card style={{ marginTop: '50px', width: '15vw', height: '28vh' }}>
-              <Grid style={{ width: '100%', marginBottom: '20px' }}>
-                <TextField variant="outlined" placeholder="Email"></TextField>
-              </Grid>
-              <Grid style={{ width: '100%', marginBottom: '20px' }}>
-                <TextField variant="outlined" placeholder="Password"></TextField>
-              </Grid>
+            {!isLogin && (
               <Grid>
-                <Button variant="contained" color="primary">
-                  Login
-                </Button>
+                <Card
+                  style={{
+                    marginTop: '50px',
+                    width: '20vw',
+                    height: '28vh',
+                  }}>
+                  <MenuList />
+                  <Typography style={{ marginTop: '10px', fontSize: '10px' }}>Ou</Typography>
+                  <Grid>
+                    <Button
+                      onClick={() => setIsLogin(true)}
+                      style={{ marginTop: '30px', backgroundColor: '#001740', color: '#ffff' }}
+                      variant="contained">
+                      Entrar
+                    </Button>
+                  </Grid>
+                </Card>
               </Grid>
-            </Card>
+            )}
+            {isLogin && (
+              <Grid item xs={12} md={6}>
+                <Card style={{ marginTop: '50px', width: '15vw', height: '28vh' }}>
+                  <Grid style={{ width: '100%', marginBottom: '20px' }}>
+                    <TextField variant="outlined" placeholder="Email"></TextField>
+                  </Grid>
+                  <Grid style={{ width: '100%', marginBottom: '20px' }}>
+                    <TextField variant="outlined" type="password" placeholder="Senha"></TextField>
+                  </Grid>
+
+                  <Grid>
+                    <Button
+                      variant="contained"
+                      style={{ marginTop: '30px', backgroundColor: '#001740', color: '#ffff' }}>
+                      Login
+                    </Button>
+                  </Grid>
+                </Card>
+              </Grid>
+            )}
           </form>
         </Grid>
       </Grid>

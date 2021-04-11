@@ -14,11 +14,14 @@ export const useStyles = makeStyles((theme: Theme) =>
       flexGrow: 1,
       maxWidth: 752,
     },
-    demo: {
+    Background: {
       backgroundColor: theme.palette.background.paper,
     },
     title: {
       margin: theme.spacing(4, 0, 2),
+    },
+    spacing: {
+      marginRight: '-50px',
     },
   }),
 );
