@@ -4,12 +4,12 @@ import IconButton from '@material-ui/core/IconButton';
 import { useStyles } from './styles';
 
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
-const MenuList: React.FC = () => {
+const BaseConhecimento: React.FC = () => {
   const classes = useStyles();
 
   return (
     <div className={classes.Background}>
-      <List dense>
+      <List style={{ width: '100vw' }} dense>
         <ListItem>
           <ListItemText primary="Quer submeter? Entenda a legislação" />
           <ListItemSecondaryAction>
@@ -47,4 +47,4 @@ const MenuList: React.FC = () => {
   );
 };
 
-export default MenuList;
+export default BaseConhecimento;

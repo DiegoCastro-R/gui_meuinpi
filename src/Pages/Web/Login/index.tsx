@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Typography, Button, Card, TextField } from '@material-ui/core';
-import MenuList from '../../Components/MenuListItems';
-import logo from '../../logo.png';
+import BaseConhecimento from '../../../Components/BaseConhecimento';
+import logo from '../../../logo.png';
 import { Container } from './styles';
 
 const login: React.FC = () => {
@@ -39,12 +39,12 @@ const login: React.FC = () => {
                     width: '20vw',
                     height: '28vh',
                   }}>
-                  <MenuList />
+                  <BaseConhecimento />
                   <Typography style={{ marginTop: '10px', fontSize: '10px' }}>Ou</Typography>
                   <Grid>
                     <Button
                       onClick={() => setIsLogin(true)}
-                      style={{ marginTop: '30px', backgroundColor: '#001740', color: '#ffff' }}
+                      style={{ marginTop: '20px', backgroundColor: '#001740', color: '#ffff' }}
                       variant="contained">
                       Entrar
                     </Button>

@@ -1,8 +1,8 @@
 import React from 'react';
-import Login from '../src/Pages/Login';
+import Login from '../Pages/Mobile/Login';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-const Routes: React.FC = () => {
+const MobileRoutes: React.FC = () => {
   return (
     <Router>
       <Switch>
@@ -14,4 +14,4 @@ const Routes: React.FC = () => {
   );
 };
 
-export default Routes;
+export default MobileRoutes;
