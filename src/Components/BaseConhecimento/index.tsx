@@ -33,7 +33,10 @@ const BaseConhecimento: React.FC = () => {
         <ListItem>
           <ListItemText primary="Ainda precisa de ajuda? Consulte nosso Tutorial" />
           <ListItemSecondaryAction>
-            <IconButton edge="end" aria-label="delete">
+            <IconButton
+              onClick={() => history.push('tutoriais')}
+              edge="end"
+              aria-label="Navegar para tutoriais">
               <ArrowRightIcon />
             </IconButton>
           </ListItemSecondaryAction>

@@ -3,6 +3,7 @@ import NavBar from '../Components/NavBar';
 import Login from '../Pages/Web/Login';
 import Cases from '../Pages/Web/Cases';
 import Legislacao from '../Pages/Web/Legislacao';
+import Tutoriais from '../Pages/Web/Tutoriais';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const WebRoutes: React.FC = () => {
@@ -19,6 +20,9 @@ const WebRoutes: React.FC = () => {
       </Route>
       <Route exact path="/legislacao">
         <Legislacao />
+      </Route>
+      <Route exact path="/tutoriais">
+        <Tutoriais />
       </Route>
     </Router>
   );

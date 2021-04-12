@@ -46,7 +46,7 @@ const Legislacao: React.FC = () => {
             <Typography className={classes.pos} color="textSecondary">
               STJ
             </Typography>
-            <Typography variant="body2" className={classes.infoText} component="p">
+            <Typography variant="body2" className={classes.infoText} align="inherit" component="p">
               A marca de alto renome (art. 125 daLei de Propriedade Industrial LPI) é exceção ao
               principio da especifidade e tem proteção especial em todos os ramos de atividade,
               desde que previamente registrada no Brasil e assim declarada pelo INPI - Instituto
