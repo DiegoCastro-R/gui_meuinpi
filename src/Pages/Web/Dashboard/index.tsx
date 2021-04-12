@@ -1,10 +1,12 @@
 import { Avatar, Typography, Card, CardContent, Button } from '@material-ui/core';
+import { useHistory } from 'react-router-dom';
 import BaseConhecimento from '../../../Components/BaseConhecimento';
 import { Grid } from '@material-ui/core';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import React from 'react';
 import { Container } from './styles';
 const Dashboard: React.FC = () => {
+  const history = useHistory();
   return (
     <Container>
       <Grid
@@ -60,6 +62,7 @@ const Dashboard: React.FC = () => {
         style={{ marginTop: '30px' }}>
         <Grid item>
           <Button
+            onClick={() => history.push('registros')}
             variant="contained"
             style={{
               width: '60vw',

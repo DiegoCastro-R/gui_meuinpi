@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Card, CardContent, CardActions, Button, Grid } from '@material-ui/core';
-import { useStyles, Container } from './styles';
+import { useStyles, Container } from './style';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 const MeusRegistrosCards: React.FC = () => {
   const classes = useStyles();
@@ -38,7 +38,7 @@ const MeusRegistrosCards: React.FC = () => {
           </CardContent>
           <CardActions style={{ background: '#1351B4' }}>
             <FiberManualRecordIcon style={{ color: '#268744' }}></FiberManualRecordIcon>
-            <h6 className={classes.statusText} style={{ marginRight: 75 }}>
+            <h6 className={classes.statusText} style={{ marginRight: 100 }}>
               Registro de Marca em Vigor
             </h6>
 
@@ -59,7 +59,7 @@ const MeusRegistrosCards: React.FC = () => {
           </CardContent>
           <CardActions style={{ background: '#1351B4' }}>
             <FiberManualRecordIcon style={{ color: 'red' }}></FiberManualRecordIcon>
-            <h6 className={classes.statusText} style={{ marginRight: 110 }}>
+            <h6 className={classes.statusText} style={{ marginRight: 140 }}>
               Registro Indeferido
             </h6>
 
