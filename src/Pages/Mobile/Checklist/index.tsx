@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Header, useStyles } from './styles';
+import { Container, Header } from './styles';
 import { Typography, Grid, TextField, InputAdornment } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 import ChecklistItems from '../../../Components/ChecklistItems';
