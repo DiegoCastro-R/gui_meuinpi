@@ -9,8 +9,8 @@ export const Container = styled.div`
 `;
 
 export const Header = styled.div`
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
 `;
 
 export const useStyles = makeStyles({
