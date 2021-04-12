@@ -1,7 +1,7 @@
 {
   "name": "MeuINPI",
   "short_name": "Meu INPI",
-  "theme_color": "#1351b4",
+  "theme_color": "#1351B4",
   "background_color": "#ffffff",
   "display": "minimal-ui",
   "scope": "/",

@@ -4,6 +4,8 @@ export const Container = styled.div`
   width: 100vw;
   height: 100vh;
   background: #ffff;
+  margin-right: 20px;
+  margin-left: 20px;
   flex: 1;
 
   margin-bottom: 0;
