@@ -12,7 +12,10 @@ const BaseConhecimento: React.FC = () => {
     <div className={classes.Background}>
       <List dense>
         <ListItem>
-          <ListItemText primary="Quer submeter? Entenda a legislação" />
+          <ListItemText
+            style={{ color: '#001740' }}
+            primary="Quer submeter? Entenda a legislação"
+          />
           <ListItemSecondaryAction>
             <IconButton onClick={() => history.push('legislacao')} edge="end" aria-label="delete">
               <ArrowRightIcon />
@@ -20,7 +23,10 @@ const BaseConhecimento: React.FC = () => {
           </ListItemSecondaryAction>
         </ListItem>
         <ListItem>
-          <ListItemText primary="Cases podem te ajudar! Dê uma olhada" />
+          <ListItemText
+            style={{ color: '#001740' }}
+            primary="Cases podem te ajudar! Dê uma olhada"
+          />
           <ListItemSecondaryAction>
             <IconButton
               onClick={() => history.push('cases')}
@@ -31,7 +37,10 @@ const BaseConhecimento: React.FC = () => {
           </ListItemSecondaryAction>
         </ListItem>
         <ListItem>
-          <ListItemText primary="Ainda precisa de ajuda? Consulte nosso Tutorial" />
+          <ListItemText
+            style={{ color: '#001740' }}
+            primary="Ainda precisa de ajuda? Consulte nosso Tutorial"
+          />
           <ListItemSecondaryAction>
             <IconButton
               onClick={() => history.push('tutoriais')}
@@ -42,7 +51,10 @@ const BaseConhecimento: React.FC = () => {
           </ListItemSecondaryAction>
         </ListItem>
         <ListItem>
-          <ListItemText primary="Nada te ajudou? Visite as Dúvidas Frequentes" />
+          <ListItemText
+            style={{ color: '#001740' }}
+            primary="Nada te ajudou? Visite as Dúvidas Frequentes"
+          />
           <ListItemSecondaryAction>
             <IconButton edge="end" aria-label="delete">
               <ArrowRightIcon />

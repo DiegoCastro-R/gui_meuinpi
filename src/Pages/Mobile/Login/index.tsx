@@ -14,11 +14,11 @@ const login: React.FC = () => {
         <Grid item>
           <img src={logo} className="App-logo" alt="logo" />
           <Typography align="justify">
-            <h1 style={{ fontSize: 40, marginBottom: '-25px', color: '#1351B4' }}>Olá,</h1>
-            <h2 style={{ fontSize: 30, marginBottom: '-25px', color: '#1351B4' }}>
+            <h1 style={{ fontSize: 40, marginBottom: '-25px', color: '#001740' }}>Olá,</h1>
+            <h2 style={{ fontSize: 30, marginBottom: '-25px', color: '#001740' }}>
               seja bem vindo!
             </h2>
-            <h3 style={{ color: '#1351B4' }}>
+            <h3 style={{ color: '#001740' }}>
               Este é o meu INPI, sua solução
               <br /> web para consultar detalhes <br />
               completos dos serviços do INPI!
