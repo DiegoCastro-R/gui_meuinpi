@@ -36,7 +36,7 @@ const Dashboard: React.FC = () => {
             </Grid>
             <Grid item>
               <NotificationsIcon
-                style={{ color: '#1351B4', marginLeft: -20, marginTop: -40, fontSize: 40 }}
+                style={{ color: '#1351B4', marginLeft: 20, marginTop: -40, fontSize: 40 }}
               />
             </Grid>
           </Grid>
