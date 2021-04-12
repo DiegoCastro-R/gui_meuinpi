@@ -1,7 +1,7 @@
+import React from 'react';
 import { Typography, Grid, TextField, InputAdornment } from '@material-ui/core';
 import LegislacaoCards from '../../../Components/Legislacao';
 import SearchIcon from '@material-ui/icons/Search';
-import React from 'react';
 import { Container, Header } from './styles';
 const Legislacao: React.FC = () => {
   return (

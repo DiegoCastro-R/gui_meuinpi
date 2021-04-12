@@ -48,21 +48,20 @@ e Transmitir educação e cultura acerca da propriedade industrial de maneira di
 - [Git](https://git-scm.com/downloads)
 - [Node LTS](https://nodejs.org/dist/v12.16.2/node-v12.16.2-x64.msi)
 
-
-    * Opcional:
+  - Opcional:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 ### 2. Clonar repositorio GIT:
 
-` git clone https://github.com/DiegoCastro-R/gui_meuinpi `
+`git clone https://github.com/DiegoCastro-R/gui_meuinpi`
 
 ### 3 . Executando servidor de desenvolvimento:
 
-     `Instalando as dependencias localmente utilizando yarn:`
+     ` Instalando as dependencias localmente utilizando yarn: `
 
-     `cd /gui_meuinpi`
+     ` cd /gui_meuinpi `
 
-      `yarn`
+      ` yarn `
 
-      `yarn start`
+      ` yarn start `

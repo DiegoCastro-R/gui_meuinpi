@@ -5,6 +5,7 @@ import Cases from '../Pages/Mobile/Cases';
 import Legislacao from '../Pages/Mobile/Legislacao';
 import Tutoriais from '../Pages/Mobile/Tutoriais';
 import Dashboard from '../Pages/Mobile/Dashboard';
+import MeusRegistros from '../Pages/Mobile/MeusRegistros';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const MobileRoutes: React.FC = () => {
@@ -27,6 +28,9 @@ const MobileRoutes: React.FC = () => {
       </Route>
       <Route exact path="/dashboard">
         <Dashboard />
+      </Route>
+      <Route exact path="/registros">
+        <MeusRegistros />
       </Route>
     </Router>
   );
