@@ -19,7 +19,7 @@ const login: React.FC = () => {
             <h3>
               Este é o meu INPI, sua solução
               <br /> web para consultar detalhes <br />
-              completos de suas patentes!
+              completos dos serviços do INPI!
             </h3>
           </Typography>
         </Grid>
