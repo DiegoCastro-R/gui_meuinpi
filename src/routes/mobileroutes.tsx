@@ -4,6 +4,7 @@ import Login from '../Pages/Mobile/Login';
 import Cases from '../Pages/Mobile/Cases';
 import Legislacao from '../Pages/Mobile/Legislacao';
 import Tutoriais from '../Pages/Mobile/Tutoriais';
+import Dashboard from '../Pages/Mobile/Dashboard';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const MobileRoutes: React.FC = () => {
@@ -23,6 +24,9 @@ const MobileRoutes: React.FC = () => {
       </Route>
       <Route exact path="/tutoriais">
         <Tutoriais />
+      </Route>
+      <Route exact path="/dashboard">
+        <Dashboard />
       </Route>
     </Router>
   );

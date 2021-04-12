@@ -10,27 +10,24 @@ export const Container = styled.div`
 
 export const useStyles = makeStyles({
   root: {
-    width: '95vw',
+    maxWidth: 280,
     marginTop: '40px',
+    marginRight: '20px',
   },
-  button: {
-    background: '#1351B4',
-    color: '#fff',
-    marginLeft: '60%',
+  bullet: {
+    display: 'inline-block',
+    margin: '0 2px',
+    transform: 'scale(0.8)',
   },
-  media: {
-    height: 140,
-  },
-
   title: {
     fontSize: 14,
   },
   infoText: {
     fontSize: 10,
-    marginTop: 10,
     wordWrap: 'break-word',
   },
   pos: {
     fontSize: 10,
+    marginBottom: 12,
   },
 });

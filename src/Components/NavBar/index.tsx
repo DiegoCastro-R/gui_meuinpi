@@ -22,6 +22,9 @@ const NavBar: React.FC = () => {
       case '/tutoriais':
         setBarText('Tutoriais');
         break;
+      case '/dashboard':
+        setBarText('Dashboard');
+        break;
       default:
         setBarText('');
         break;

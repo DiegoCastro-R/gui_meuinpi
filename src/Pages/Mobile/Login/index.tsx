@@ -1,11 +1,13 @@
 import React from 'react';
 import { Grid, Typography, Button, Card, TextField } from '@material-ui/core';
+import { useHistory } from 'react-router-dom';
 import BaseConhecimento from '../../../Components/BaseConhecimento';
 import logo from '../../../logo.png';
 import { Container } from './styles';
 
 const login: React.FC = () => {
   const [isLogin, setIsLogin] = React.useState(false);
+  const history = useHistory();
   return (
     <Container>
       <Grid container direction="row" justify="center" alignItems="center">
@@ -58,6 +60,7 @@ const login: React.FC = () => {
 
                   <Grid>
                     <Button
+                      onClick={() => history.push('dashboard')}
                       variant="contained"
                       style={{ marginTop: '30px', backgroundColor: '#001740', color: '#ffff' }}>
                       Entrar
