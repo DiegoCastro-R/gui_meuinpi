@@ -72,4 +72,4 @@ e Transmitir educação e cultura acerca da propriedade industrial de maneira di
 - [Izabelly Friedrich - Especialista em Propriedade Intelectual, Proteção de Dados](https://www.linkedin.com/in/lethicia-moura-307183ba/)
 - [Henrique Pereira - Skill UX Design](https://www.linkedin.com/in/alhenriquepereira/)
 - [Julia Santana Vicente - Skill Business/Market](https://www.linkedin.com/in/julia-santana-vicente/)
-- [Wanderson Rogério - Skill Engenharia/Desenvolvimento](https://www.linkedin.com/in/wanderson-rog%C3%A9rio-4a0638171/)
+- [Wanderson Rogério - Skill Engenharia/Desenvolvimento](https://www.linkedin.com/in/izabelly-friedrich-108677205/)
