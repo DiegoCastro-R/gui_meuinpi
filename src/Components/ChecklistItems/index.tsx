@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Card, CardContent, CardActions, Button, Grid } from '@material-ui/core';
+import { Button, Grid } from '@material-ui/core';
 import { useStyles, Container } from './styles';
 
 const ChecklistItems: React.FC = () => {
