@@ -14,7 +14,7 @@ const BaseConhecimento: React.FC = () => {
         <ListItem>
           <ListItemText primary="Quer submeter? Entenda a legislação" />
           <ListItemSecondaryAction>
-            <IconButton edge="end" aria-label="delete">
+            <IconButton onClick={() => history.push('legislacao')} edge="end" aria-label="delete">
               <ArrowRightIcon />
             </IconButton>
           </ListItemSecondaryAction>
