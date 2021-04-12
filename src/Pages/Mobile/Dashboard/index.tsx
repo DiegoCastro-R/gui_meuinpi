@@ -78,6 +78,7 @@ const Dashboard: React.FC = () => {
             Quiz
           </Button>
           <Button
+            onClick={() => history.push('checklist')}
             variant="contained"
             style={{
               width: '80vw',
