@@ -1,9 +1,8 @@
 import React from 'react';
 import { Button, Grid } from '@material-ui/core';
-import { useStyles, Container } from './styles';
+import { Container } from './styles';
 
 const ChecklistItems: React.FC = () => {
-  const classes = useStyles();
   return (
     <Container>
       <Grid container direction="row" justify="center" alignItems="center">
