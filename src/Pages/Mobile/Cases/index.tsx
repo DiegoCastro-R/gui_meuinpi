@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Typography,
   Grid,
@@ -9,7 +10,6 @@ import {
   Button,
 } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
-import React from 'react';
 import { Container, useStyles } from './styles';
 const Cases: React.FC = () => {
   const classes = useStyles();

@@ -58,13 +58,10 @@ e Transmitir educação e cultura acerca da propriedade industrial de maneira di
 
 ### 3 . Executando servidor de desenvolvimento:
 
-    
+      Instalando as dependencias localmente utilizando yarn:
 
-      Instalando as dependencias localmente utilizando yarn: 
-    
-       cd /gui_meuinpi 
-    
-        yarn 
-    
-         yarn start 
-    
+      cd /gui_meuinpi
+
+      yarn
+
+      yarn start

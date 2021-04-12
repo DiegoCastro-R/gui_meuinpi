@@ -6,6 +6,7 @@ import Legislacao from '../Pages/Mobile/Legislacao';
 import Tutoriais from '../Pages/Mobile/Tutoriais';
 import Dashboard from '../Pages/Mobile/Dashboard';
 import MeusRegistros from '../Pages/Mobile/MeusRegistros';
+import Checklist from '../Pages/Mobile/Checklist';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 const MobileRoutes: React.FC = () => {
@@ -31,6 +32,9 @@ const MobileRoutes: React.FC = () => {
       </Route>
       <Route exact path="/registros">
         <MeusRegistros />
+      </Route>
+      <Route exact path="/checklist">
+        <Checklist />
       </Route>
     </Router>
   );
